@@ -1,5 +1,5 @@
 <script>
-  import Spoomples from './assets/spoomples.png'
+  import Spoomples from '../public/spoomples.png'
   $: console.log(`%c   ████████                                                        ████                  
  ███░░░░░███                                                      ░░███                  
 ░███    ░░░  ████████   ██████   ██████  █████████████   ████████  ░███   ██████   █████ 
