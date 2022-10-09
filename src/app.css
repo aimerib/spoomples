@@ -1,0 +1,44 @@
+:root {
+  background-color: #cd0e11;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+img {
+  border: 20px solid #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 20px 25px -5px, rgba(0, 0, 0, 0.08) 0px 10px 10px -5px;
+}
+
+@media (orientation: landscape) {
+  img {
+    height: 70vh;
+  }
+}
+
+
+@media (orientation: portrait) {
+  img {
+    max-width: 70vw;
+  }
+}
+
+img {
+  max-width: 60vw;
+}
